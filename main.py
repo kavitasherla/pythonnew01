@@ -28,5 +28,5 @@ def deleteFile():
     return jsonify("File Removed")
 
 if(__name__=="__main__"):
-    main.run(host='0.0.0.0',debug=True)
+    main.run(host='0.0.0.0')
 
