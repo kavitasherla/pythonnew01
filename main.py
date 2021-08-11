@@ -15,9 +15,7 @@ def generateCSVFile():
     return jsonify(os.path.abspath("data.zip"))
 
 
-@main.route("/hi",methods=["GET"])
-def hi():
-    return "hi"
+
 
 @main.route("/delete",methods=["DELETE"])
 def deleteFile():
